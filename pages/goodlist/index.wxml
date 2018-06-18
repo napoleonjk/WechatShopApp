@@ -1,0 +1,44 @@
+<view class="my-tabs">
+     <view class="tab-item active">
+           <text>热销榜</text>
+           <view class="tab-line"></view>
+     </view>
+     <view class="tab-item">
+           <text>人气榜</text>
+           <view class=""></view>
+     </view>
+</view>
+<view class="my-tabs-content">
+      <view class="content-item">
+          <view class="img"><image src="../../images/xiawei.jpg"/></view>
+          <view class="info">
+              <view class="name">
+                 <text>香辣虾尾普通装</text>
+              </view>
+              <view class="price-info">
+                   <text class="price">￥17</text>
+                   <text class="promotion discount">限时优惠8折</text>
+                   <text class="promotion postage-included">包邮</text>
+              </view>
+              <view class="original-price-sales">
+                  <text class="original-price">原价￥21.25</text>
+                  <text class="sales">销量：2000</text>
+              </view>
+          </view>
+      </view>
+      <view class="content-item">
+          <view class="img"><image src="../../images/xiawei.jpg"/></view>
+          <view class="info">
+              <text class="name">十三香虾尾超级装</text>
+              <view class="price-info">
+                   <text class="price">￥34</text>
+                   <text class="promotion new-arrival">New</text>
+                   <text class="promotion postage-included">包邮</text>
+              </view>
+              <view class="original-price-sales">
+                  <text class="original-price">原价￥42.5</text>
+                  <text class="sales">销量：2000</text>
+              </view>
+          </view>
+      </view>
+</view>
