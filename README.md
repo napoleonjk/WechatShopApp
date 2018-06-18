@@ -1,2 +1,2 @@
 # WechatShopApp
-wechat shop app
+欢迎大家关注我的头条号和微信公众号——“前端琅琊阁”，获取更多小程序开发连载视频
