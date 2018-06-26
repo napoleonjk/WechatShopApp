@@ -1,0 +1,26 @@
+<!-- banner -->
+<swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{good.b_img_url}}">
+    <swiper-item>
+      <image src="{{item}}" data-src="{{item}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="detail">
+  <view class="detail-info">
+    <view wx:for="{{good.detail_info?good.detail_info:[]}}" wx:for-index="idx">
+      <view class="item {{(idx+1)%2==0?'gray':''}}">
+        <text class="label">{{item.label}}</text>
+        <text class="split">|</text>
+        <text class="value">{{item.value}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="line"></view>
+  <view class="description">
+    <view wx:for="{{good.detail_img_url?good.detail_img_url:[]}}">
+      <image src="{{item}}" />
+    </view>
+  </view>
+</view>

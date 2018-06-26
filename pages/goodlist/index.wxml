@@ -9,7 +9,7 @@
      </view>
 </view>
 <view class="my-tabs-content">
-      <view class="content-item">
+      <view class="content-item" bindtap="gotoGoodDetail" data-id="5">
           <view class="img"><image src="../../images/xiawei.jpg"/></view>
           <view class="info">
               <view class="name">
@@ -26,7 +26,7 @@
               </view>
           </view>
       </view>
-      <view class="content-item">
+      <view class="content-item" bindtap="gotoGoodDetail" data-id="8">
           <view class="img"><image src="../../images/xiawei.jpg"/></view>
           <view class="info">
               <text class="name">十三香虾尾超级装</text>
